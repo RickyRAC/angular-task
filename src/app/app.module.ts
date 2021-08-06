@@ -4,6 +4,7 @@ import { CoreModule } from '@core/core.module';
 import { FeaturesModule } from '@features/features.module';
 import { AppComponent } from './app.component';
 
+
 @NgModule({
     bootstrap: [
         AppComponent
@@ -14,7 +15,8 @@ import { AppComponent } from './app.component';
     imports: [
         BrowserModule,
         CoreModule,
-        FeaturesModule
+        FeaturesModule,
+        
     ]
 })
 export class AppModule { }
